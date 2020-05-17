@@ -1,6 +1,7 @@
 {
   "name": "diplom-ra",
   "version": "1.0.0",
+  "homepage": "https://nugmanov87.github.io/diplom-ra/",
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
