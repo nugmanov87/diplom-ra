@@ -17,6 +17,10 @@ export default function Card(props) {
       <div className="card catalog-item-card">
         <img
           src={item.images[0]}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = 'https://whey-market.ru/image/cache/catalog/temp/3/ponents-com_jshopping-files-img_products-noimage-800x800.gif';
+          }}
           className="card-img-top img-fluid"
           alt={item.title}
         />
